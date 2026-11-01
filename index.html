@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Transerfing w praktyce: nauka i codzienne stosowanie zasad Vadima Zelanda</title>
+    <meta
+      name="description"
+      content="Nieoficjalny przewodnik po Transerfingu Vadima Zelanda: wahadła, ważność, zamiar, slajdy, techniki Tafti i wyjście z matrixa. Lekcje, program i narzędzia."
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <!--app-head-->
+    <script>
+      // Ustaw motyw przed załadowaniem aplikacji, żeby uniknąć mignięcia.
+      try {
+        var s = JSON.parse(localStorage.getItem('ts:settings') || '{}');
+        if (s && s.theme) document.documentElement.setAttribute('data-theme', s.theme);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript>Interaktywne narzędzia tej strony wymagają włączonej obsługi JavaScript.</noscript>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+import type { LifeArea } from '../types';
+
+export const AREAS: LifeArea[] = [
+  {
+    slug: 'praca',
+    title: 'Praca i kariera',
+    icon: 'briefcase',
+    tagline: 'Rób swoje, nie walcząc z systemem',
+    intro: [
+      'Praca to miejsce, w którym wahadła są najbardziej widoczne: firma, branża, oczekiwania przełożonych, wyścig o awans. Łatwo tu oddać całą energię cudzym celom i jednocześnie podnieść ważność do granic.',
+      'Transerfing nie każe rzucać pracy. Proponuje uczestniczyć w niej świadomie: wykonywać swoją rolę dobrze, bez fanatyzmu i lęku, a energię kierować do własnego celu, nawet jeśli dziś jest on tylko kierunkiem.',
+    ],
+    pendulums: [
+      'Kultura firmy: „wszyscy zostają po godzinach”, „tak się u nas robi”.',
+      'Wyścig o stanowiska i porównywanie się z innymi.',
+      'Plotki, konflikty i obozy w zespole.',
+      'Komunikatory i maile, które wymagają natychmiastowej reakcji.',
+    ],
+    importance: [
+      '„Ta rozmowa kwalifikacyjna musi się udać.”',
+      '„Jeśli stracę tę pracę, wszystko przepadnie.”',
+      '„Muszę udowodnić szefowi, że jestem najlepszy/najlepsza.”',
+    ],
+    principles: [
+      { principle: 'Świadomy udział w wahadle', lesson: 'uwalnianie-od-wahadel', action: 'Wykonuj swoją rolę dobrze, ale nie oddawaj firmie emocji: bez walki, bez fanatyzmu, bez lęku.' },
+      { principle: 'Obniżanie ważności', lesson: 'obnizanie-waznosci', action: 'Przed ważną rozmową przygotuj plan B i zaakceptuj najgorszy scenariusz.' },
+      { principle: 'Cele i drzwi', lesson: 'cele-i-drzwi', action: 'Sprawdź, czy twoja ścieżka zawodowa jest twoja, czy cudza. Szukaj zadań, przy których tracisz poczucie czasu.' },
+      { principle: 'Frajling', lesson: 'frajling', action: 'Dawaj szczere uznanie i uwagę współpracownikom. To zmienia relacje szybciej niż walka o swoje.' },
+      { principle: 'Rozświetlanie dnia', lesson: 'rozswietlanie-dnia', action: 'Rano ustaw kadr ważnego spotkania albo rozmowy, a potem po prostu zrób swoje.' },
+    ],
+    plan: [
+      'Wypisz wahadła swojej pracy i zaznacz, które zabierają ci najwięcej energii.',
+      'Przez cały dzień nie bierz udziału w plotkach i narzekaniu.',
+      'Przed najważniejszym zadaniem dnia ustaw kadr jego spokojnego przebiegu.',
+      'Daj trzem osobom szczere uznanie za konkretną rzecz.',
+      'Sprawę, która spina cię najbardziej, przepuść przez Miernik ważności.',
+      'Zrób test duszy dla swojej obecnej ścieżki zawodowej.',
+      'Zaplanuj jeden mały krok w stronę własnych drzwi i zrób go.',
+    ],
+    tools: ['wahadla', 'waznosc', 'frajling', 'cele'],
+    caution:
+      'Przy mobbingu, dyskryminacji albo łamaniu praw pracowniczych skorzystaj z pomocy prawnej, działu kadr lub Państwowej Inspekcji Pracy. Transerfing nie zastępuje ochrony prawnej.',
+  },
+  {
+    slug: 'pieniadze',
+    title: 'Pieniądze i dobrobyt',
+    icon: 'coins',
+    tagline: 'Pieniądze jako atrybut drogi, a nie cel',
+    intro: [
+      'Pieniądze to jedno z najsilniejszych wahadeł. Wokół nich narasta strach przed brakiem, zazdrość, poczucie winy i ogromna ważność, które według Zelanda odpychają dobrobyt, zamiast go przyciągać.',
+      'W Transerfingu pieniądze traktuje się jako atrybut, który towarzyszy ci w drodze do własnego celu. Zmienia się wtedy pytanie: z „jak zdobyć więcej pieniędzy?” na „jaka droga jest moja i jakich środków będę na niej potrzebować?”.',
+    ],
+    pendulums: [
+      'Reklamy i presja konsumpcji: „musisz to mieć”.',
+      'Porównywanie stylu życia z innymi, szczególnie w mediach społecznościowych.',
+      'Rodzinne przekonania: „pieniądze są brudne”, „bogaci to złodzieje”.',
+      'Obietnice szybkiego zarobku, które grają na chciwości i strachu.',
+    ],
+    importance: [
+      '„Bez tych pieniędzy nie będę szczęśliwy/szczęśliwa.”',
+      '„Nie stać mnie na nic”, powtarzane jak zaklęcie.',
+      'Kurczowe trzymanie się każdej złotówki ze strachu.',
+    ],
+    principles: [
+      { principle: 'Pieniądze bez ważności', lesson: 'pieniadze', action: 'Szanuj pieniądze i dbaj o budżet, ale bez nabożności i bez pogardy.' },
+      { principle: 'Slajdy', lesson: 'slajdy', action: 'Znajdź negatywne slajdy o pieniądzach wyniesione z domu i zastąp je własnym obrazem.' },
+      { principle: 'Cele i drzwi', lesson: 'cele-i-drzwi', action: 'Zamiast gonić za kwotą, określ cel, któremu pieniądze mają służyć.' },
+      { principle: 'Strefa komfortu', lesson: 'strefa-komfortu', action: 'Sprawdź, czy pozwalasz sobie mieć więcej. Zrób małą przymiarkę do poziomu życia, który wybierasz.' },
+      { principle: 'Fala powodzenia', lesson: 'fala-powodzenia', action: 'Zauważaj i doceniaj każdy dobry ruch finansowy, nawet drobny.' },
+    ],
+    plan: [
+      'Zapisz trzy przekonania o pieniądzach, które znasz z domu.',
+      'Przy każdym zapytaj, czy jest twoje, czy cudze, i przeformułuj najbardziej ograniczające.',
+      'Spisz rzeczywisty budżet. Liczby uspokajają bardziej niż domysły.',
+      'Przez cały dzień nie mów „nie stać mnie”. Zamiast tego mów „wybieram coś innego”.',
+      'Określ cel, któremu mają służyć pieniądze, i stwórz jego slajd.',
+      'Zrób jedną przymiarkę: odwiedź miejsce albo sprawdź usługę z poziomu, który wybierasz.',
+      'Zrób jeden krok w stronę swojego celu, a nie samego zarabiania.',
+    ],
+    tools: ['waznosc', 'slajdy', 'cele'],
+    caution:
+      'Treści serwisu nie są poradą finansową ani inwestycyjną. Przy długach i poważnych decyzjach finansowych skonsultuj się ze specjalistą.',
+  },
+  {
+    slug: 'zwiazki',
+    title: 'Związki i bliskość',
+    icon: 'heart',
+    tagline: 'Dawaj zamiast brać, pozwól być sobą',
+    intro: [
+      'W relacjach najłatwiej o nadmierne potencjały: idealizację, zazdrość, potrzebę kontroli i lęk przed odrzuceniem. Zeland zauważa, że im bardziej kurczowo chcemy czegoś od drugiej osoby, tym częściej ona się wycofuje.',
+      'Transerfing proponuje dwie proste zmiany: zamiar dawania zamiast zamiaru brania, czyli frajling, oraz zasadę dwóch pozwoleń: pozwolić sobie być sobą, a drugiej osobie być inną.',
+    ],
+    pendulums: [
+      'Romantyczne standardy z filmów i mediów społecznościowych.',
+      'Oczekiwania rodziny i otoczenia: „w twoim wieku powinieneś/powinnaś…”.',
+      'Zazdrość i rywalizacja podsycane przez porównania.',
+      'Kłótnie, które powtarzają się według tego samego scenariusza.',
+    ],
+    importance: [
+      '„Bez tej osoby nie będę szczęśliwy/szczęśliwa.”',
+      '„Muszę go/ją przekonać, zmienić, naprawić.”',
+      'Nerwowe sprawdzanie, czy odpisał/odpisała.',
+    ],
+    principles: [
+      { principle: 'Frajling', lesson: 'frajling', action: 'Zanim o coś poprosisz, daj szczerą uwagę, uznanie i zainteresowanie.' },
+      { principle: 'Nadmierne potencjały', lesson: 'nadmierne-potencjaly', action: 'Zauważ idealizację i zamień ją na zwykłą, ciepłą obecność.' },
+      { principle: 'Pozwól sobie być sobą', lesson: 'frajl-duszy', action: 'Nie udawaj kogoś innego, żeby się przypodobać. Pozwól też drugiej osobie być sobą.' },
+      { principle: 'Wygaszanie wahadła', lesson: 'uwalnianie-od-wahadel', action: 'W powtarzającej się kłótni odpowiedz nieoczekiwanie: spokojem, życzliwością albo humorem.' },
+      { principle: 'Dualne lustro', lesson: 'dualne-lustro', action: 'Zmieniaj swój stosunek do relacji i daj lustru czas na odbicie.' },
+    ],
+    plan: [
+      'Zapisz, czego najczęściej oczekujesz od bliskiej osoby.',
+      'Przez cały dzień niczego nie żądaj. Tylko dawaj uwagę i uznanie.',
+      'Wysłuchaj kogoś bez przerywania i bez dawania rad.',
+      'Pozwól bliskiej osobie zrobić coś po swojemu, bez komentarza.',
+      'Zrób dla siebie coś, co lubisz, bez tłumaczenia się.',
+      'W chwili napięcia odpowiedz nieoczekiwanie spokojnie.',
+      'Zapisz w dzienniku frajlingu, co zmieniło się w relacjach w tym tygodniu.',
+    ],
+    tools: ['frajling', 'koordynacja', 'wahadla'],
+    caution:
+      'Jeśli w związku doświadczasz przemocy fizycznej, psychicznej albo ekonomicznej, to nie jest sytuacja do „obniżania ważności”. Szukaj pomocy: w nagłym zagrożeniu dzwoń pod 112, wsparcie oferuje też „Niebieska Linia”: 800 12 00 02.',
+  },
+  {
+    slug: 'zdrowie',
+    title: 'Zdrowie i ciało',
+    icon: 'activity',
+    tagline: 'Żywa energia bez nowego wahadła',
+    intro: [
+      'Zeland wiąże jasność świadomości i siłę zamiaru ze stanem ciała. W późniejszych książkach zachęca do naturalnego jedzenia, ruchu, świeżego powietrza i kontaktu z naturą, a krytykuje życie w sztucznym, przebodźcowanym środowisku.',
+      'Zdrowie łatwo też zamienić w źródło ważności: lęk przed chorobą, obsesję na punkcie diety, porównywanie ciała ze standardami. Transerfing pomaga tu przede wszystkim obniżyć napięcie i świadomie wybierać nawyki.',
+    ],
+    pendulums: [
+      'Standardy wyglądu w mediach i reklamach.',
+      'Modne diety i „cudowne” suplementy.',
+      'Straszenie chorobami w wiadomościach i w sieci.',
+      'Przetworzona żywność i siedzący tryb życia jako „norma”.',
+    ],
+    importance: [
+      'Obsesyjne sprawdzanie objawów w internecie.',
+      '„Muszę schudnąć do lata, inaczej…”',
+      'Walka z własnym ciałem zamiast troski o nie.',
+    ],
+    principles: [
+      { principle: 'Żywa energia', lesson: 'zywa-energia', action: 'Dodawaj do posiłków świeże warzywa i owoce. Zmieniaj nawyki stopniowo.' },
+      { principle: 'Energia zamiaru', lesson: 'energia-zamiaru', action: 'Codziennie poświęć kilka minut na ćwiczenie centralnych strumieni i na ruch.' },
+      { principle: 'Higiena informacyjna', lesson: 'higiena-informacyjna', action: 'Nie czytaj o chorobach „dla uspokojenia”. Pytaj lekarza zamiast forów.' },
+      { principle: 'Slajdy', lesson: 'slajdy', action: 'Stwórz slajd siebie zdrowego/zdrowej i pełnego/pełnej energii w zwykłym dniu.' },
+      { principle: 'Obniżanie ważności', lesson: 'obnizanie-waznosci', action: 'Traktuj zdrowie z troską, a nie ze strachem. Dbaj o ciało jak o przyjaciela.' },
+    ],
+    plan: [
+      'Wypij szklankę wody zaraz po przebudzeniu i zrób 5 minut ruchu.',
+      'Dodaj do jednego posiłku porcję świeżych warzyw albo owoców.',
+      'Spędź co najmniej 20 minut na zewnątrz, najlepiej wśród zieleni.',
+      'Zrób ćwiczenie centralnych strumieni energii.',
+      'Wyłącz ekrany godzinę przed snem.',
+      'Stwórz slajd siebie w pełni sił w zwykły dzień.',
+      'Sprawdź w check-inie energię z tego tygodnia i wybierz jeden nawyk, który zostaje.',
+    ],
+    tools: ['energia', 'detoks', 'slajdy'],
+    caution:
+      'Serwis nie udziela porad medycznych. Nie odstawiaj leków i nie zmieniaj radykalnie diety bez konsultacji z lekarzem, szczególnie przy chorobach przewlekłych, w ciąży i u dzieci.',
+  },
+  {
+    slug: 'konflikty',
+    title: 'Konflikty i trudni ludzie',
+    icon: 'swords',
+    tagline: 'Wyjdź z rytmu wahadła',
+    intro: [
+      'Każdy konflikt to wahadło, które żywi się energią obu stron. Im mocniej reagujesz na prowokację, tym silniej się kołysze. Według Zelanda nie wygrywa ten, kto przekrzyczy drugą stronę, tylko ten, kto przestaje dostarczać energii.',
+      'To nie znaczy, że masz się na wszystko zgadzać. Możesz stawiać granice, mówić „nie” i bronić swoich spraw, tyle że spokojnie, bez wchodzenia w cudzy rytm.',
+    ],
+    pendulums: [
+      'Dyskusje polityczne i światopoglądowe.',
+      'Rodzinne spory, które wracają przy każdym spotkaniu.',
+      'Kłótnie w komentarzach i na grupach.',
+      'Ludzie, którzy żyją z dramatu i wciągają w niego innych.',
+    ],
+    importance: [
+      '„Muszę mieć ostatnie słowo.”',
+      '„Nie mogę pozwolić, żeby tak o mnie myśleli.”',
+      'Długie rozpamiętywanie rozmowy i układanie ripost.',
+    ],
+    principles: [
+      { principle: 'Uwalnianie od wahadła', lesson: 'uwalnianie-od-wahadel', action: 'Uznaj, że druga strona ma prawo do swojego zdania, i przestań dostarczać energii.' },
+      { principle: 'Haczyki wahadeł', lesson: 'haczyki-wahadel', action: 'Nazwij emocję, na którą cię łapią: oburzenie, winę, dumę.' },
+      { principle: 'Przebudzenie', lesson: 'przebudzenie', action: 'Zanim odpowiesz, obudź się: widzę siebie i widzę rzeczywistość.' },
+      { principle: 'Poczucie winy', lesson: 'poczucie-winy', action: 'Nie tłumacz się. Krótko i spokojnie powiedz, co myślisz.' },
+      { principle: 'Koordynacja zamiaru', lesson: 'koordynacja-zamiaru', action: 'Po trudnej rozmowie uznaj, że to ci w czymś służy, i nie rozpamiętuj jej.' },
+    ],
+    plan: [
+      'Wypisz konflikty, które wracają w twoim życiu, i nazwij ich wahadła.',
+      'Przez cały dzień nie komentuj w sieci tematów, które cię oburzają.',
+      'W jednej trudnej rozmowie odczekaj trzy oddechy przed odpowiedzią.',
+      'Odpowiedz na prowokację nieoczekiwanie: spokojem albo życzliwością.',
+      'Powiedz komuś „nie” bez tłumaczenia się.',
+      'Wyobraź sobie sporną sytuację jako scenę z komedii i zobacz, co zostaje z napięcia.',
+      'Przejrzyj zapisy w Detektorze wahadeł. Która strategia działa u ciebie najlepiej?',
+    ],
+    tools: ['wahadla', 'koordynacja', 'przebudzenie'],
+    caution: 'Jeśli konflikt przeradza się w przemoc albo groźby, zadbaj o bezpieczeństwo i szukaj pomocy. W nagłym zagrożeniu dzwoń pod 112.',
+  },
+];
+
+export const AREA_BY_SLUG: Record<string, LifeArea> = Object.fromEntries(AREAS.map((a) => [a.slug, a]));

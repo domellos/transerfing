@@ -1,0 +1,17 @@
+{
+  "name": "Transerfing w praktyce",
+  "short_name": "Transerfing",
+  "description": "Nauka i codzienna praktyka zasad Transerfingu Vadima Zelanda: wahadła, ważność, zamiar, slajdy, techniki Tafti i wyjście z matrixa.",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
